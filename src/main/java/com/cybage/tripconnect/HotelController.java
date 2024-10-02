@@ -12,7 +12,7 @@ public class HotelController {
 
     @GetMapping("/hotel")
     public String getData() {
-        return "Please book hotel from tripConnect with 75% discount in Maharashtra";
+        return "Please book hotel from tripConnect with 50% discount in Maharashtra";
     }
 
     @PutMapping("/hotel/{hotelId}")
